@@ -1,0 +1,18 @@
+{
+  "name": "fundraiser",
+  "version": "1.0.0",
+  "description": "This box comes with everything you need to start using smart contracts from a react app. This is as barebones as it gets, so nothing stands in your way.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.1",
+    "openzeppelin-solidity": "^2.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
