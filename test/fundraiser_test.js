@@ -107,8 +107,6 @@ contract("Fundraiser",accounts=>{
             const expectedEvent = "DonationReceived";
             const actualEvent = tx.logs[0].event;
             assert.equal(actualEvent, expectedEvent, "events should match");
-
-
         })
 
     })

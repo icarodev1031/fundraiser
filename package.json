@@ -1,18 +1,42 @@
 {
-  "name": "fundraiser",
-  "version": "1.0.0",
-  "description": "This box comes with everything you need to start using smart contracts from a react app. This is as barebones as it gets, so nothing stands in your way.",
-  "main": "truffle-config.js",
-  "directories": {
-    "test": "test"
-  },
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@openzeppelin/contracts": "^2.5.1",
-    "openzeppelin-solidity": "^2.5.0"
+    "@material-ui/core": "^4.3.1",
+    "@openzeppelin/contracts": "^2.3.0",
+    "bootstrap": "^4.3.1",
+    "cryptocompare": "^1.0.0",
+    "get-eth-price": "^1.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.0",
+    "react-bootstrap": "^1.0.0-beta.10",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.4",
+    "web3": "^1.2.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "author": "",
-  "license": "ISC"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
