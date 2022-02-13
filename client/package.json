@@ -9,7 +9,7 @@
     "cryptocompare": "^1.0.0",
     "get-eth-price": "^1.0.0",
     "normalize.css": "^8.0.1",
-    "openzeppelin-solidity": "^2.5.0",
+    "openzeppelin-solidity": "^3.2.0",
     "react": "^16.8.0",
     "react-bootstrap": "^1.0.0-beta.10",
     "react-dom": "^16.9.0",
