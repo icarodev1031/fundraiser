@@ -2,11 +2,11 @@ const FundraiserContract = artifacts.require("Fundraiser");
 contract("Fundraiser",accounts=>{
     console.log(accounts)
     let fundraiser;
-    //const name = "Beneficiary Name";
-    //const url = "beneficiaryname.org";
+    const name = "Beneficiary Name";
+    const url = "beneficiaryname.org";
     const imageUrl = "https://placekitten.com/600/350";
     const description = "Beneficiary description";
-    //const beneficiary = accounts[1];
+    const beneficiary = accounts[1];
    
 	
     describe("initialization",()=>{
