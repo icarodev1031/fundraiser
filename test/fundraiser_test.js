@@ -7,7 +7,7 @@ contract("Fundraiser",accounts=>{
     const imageUrl = "https://placekitten.com/600/350";
     const description = "Beneficiary description";
     const beneficiary = accounts[1];
-    const owner = accounts[0];
+   
 
     describe("initialization",()=>{
         beforeEach(async()=>{
